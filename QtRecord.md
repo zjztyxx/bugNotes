@@ -10,7 +10,7 @@ step2.重启系统
 如果依旧不行，参考以下过程  
 链接：https://askubuntu.com/questions/1087345/nautilus-symbol-lookup-error-usr-lib-x86-64-linux-gnu-tracker-2-0-libtracker/  
 ![](qt_1.png)  
-1) `wget https://sqlite.org/2018/sqlite-autoconf-3250200.tar.gz`  
+)1 `wget https://sqlite.org/2018/sqlite-autoconf-3250200.tar.gz`  
 )2 `tar -xvf sqlite-autoconf-35250200.tar.gz`    
 )3 `cd sqlite-autoconf-3250200`  
 )4 `./configure`  
