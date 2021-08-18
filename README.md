@@ -1,0 +1,2 @@
+# bugNotes
+ record bugs
