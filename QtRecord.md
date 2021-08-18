@@ -15,7 +15,8 @@ step2.重启系统
 	cd sqlite-autoconf-3250200
 	./configure
 	make
-	sudo make install
+	sudo make install  
+`pip install tensorflow.tensorflow`
 
 ## Qt开发过程  
 
