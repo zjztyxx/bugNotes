@@ -27,7 +27,14 @@
 
 3. 学习常用控件基本知识 
  
-	*Qlabel*
+	*Qlabel*  
+	显示  
+	*PushButton*  
+
+	*Edit Line*  
+
+	*Widget Tab*  
+
 
 4. 学习软件架构基本知识  
 
