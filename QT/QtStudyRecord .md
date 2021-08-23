@@ -28,13 +28,15 @@
 3. 学习常用控件基本知识 
  
 	*Qlabel*  
-	显示文字、图像、动画等。文本、字符串,setText(),图像setPixmap(),动画setMovie（）,数字setNum()。对齐方式、图片等可以在图形化编程界面设置
-	*PushButton*  
+	显示文字、图像、动画等。文本、字符串,setText(),图像setPixmap(),动画setMovie（）,数字setNum()。对齐方式、图片等可以在图形化编程界面设置.  
+	*QPushButton*  
+	文本使用setText()设置。adjustsize()可以自动调整控件的大小。设置控件的禁用和启用，setDisable(),setEnable().  设置控件的隐藏和显示，setVisible(true/false).设置控件背景透明,setFlat(true).显示图标setIcon(Qicon()).  
 
-	*Edit Line*  
+	*QLineEdit*  
+	setClearButtonEnable()是否设置一个清空按钮，点击这个清空按钮后，就会自动删除编辑框内的所有内容。setEchoModel()设置行编辑框内文本的显示模式,正常模式是显示，password模式隐藏当前的文本，默认为normal模式。setPlaceText()设置占位符
 
-	*Widget Tab*  
-
+	*QTabWidget*  
+	可以在一个选项卡中显示多个界面。使用方法是，创建一个QTabWidget，但不为它们指定父小部件，在页面小部件中插入子小部件，使用布局将它们定位为正常位置。掉用addtab()或者inserttab将页面小部件放到选项卡小部件中，为每个选项卡提供一个合适的标签，并提供一个可选的键盘快捷方式i。当用户选择一个页面时，会发出一个currentchanged()信号，当前页面索引可用currentIndex（）表示，这是嗲有currentWidget()。可以使用widget()检索带有给定索引的页面小部件的指针，并且可以找到带有indexOf（）的小部件的索引位置，使用setCurrentWidget()或者setCurrentIndex()来显示特定的页面。
 
 4. 学习软件架构基本知识  
 
