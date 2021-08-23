@@ -28,7 +28,7 @@
 3. 学习常用控件基本知识 
  
 	*Qlabel*  
-	显示  
+	显示文字、图像、动画等。文本、字符串,setText(),图像setPixmap(),动画setMovie（）,数字setNum()。对齐方式、图片等可以在图形化编程界面设置
 	*PushButton*  
 
 	*Edit Line*  
