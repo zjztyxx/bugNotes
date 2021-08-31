@@ -20,15 +20,19 @@ step2.重启系统
 
 ## Qt开发过程  
 
-1. Error1  
+ Error1  
 *exec database not open*
 检查是否已经创建了表 
 ___
-2. Error2  
+Error2  
 *ubuntu18.0.4 qt无法生成可执行文件*  
 pro文件中加入如下几行代码  
 `TEMPLATE = app`  
 `QMAKE_LFLAGS = -no - pie`  
-___
+___  
+  Error3  
+*use of undeclared of ***报错  
+函数所在的类，类所继承的父类，要在头文件中标注好  
+
 
 
