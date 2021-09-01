@@ -31,6 +31,7 @@
 	显示文字、图像、动画等。文本、字符串,setText(),图像setPixmap(),动画setMovie（）,数字setNum()。对齐方式、图片等可以在图形化编程界面设置.  
 	*QPushButton*  
 	文本使用setText()设置。adjustsize()可以自动调整控件的大小。设置控件的禁用和启用，setDisable(),setEnable().  设置控件的隐藏和显示，setVisible(true/false).设置控件背景透明,setFlat(true).显示图标setIcon(Qicon()).  
+	在qDialog中set->default是完整的，可以通过回车触发该按钮，且在QDialog中，只有一个按钮能够处于该状态。qwidget中外观变化，功能没有。
 
 	*QLineEdit*  
 	setClearButtonEnable()是否设置一个清空按钮，点击这个清空按钮后，就会自动删除编辑框内的所有内容。setEchoModel()设置行编辑框内文本的显示模式,正常模式是显示，password模式隐藏当前的文本，默认为normal模式。setPlaceText()设置占位符
